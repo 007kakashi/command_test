@@ -4,7 +4,7 @@ python -m venv image
 ########################################## Creating Envirnment ################################
 
 # to create envirnments in vs_studio
-conda create -n gala_groceries python==3.11 -y
+conda create -p gala_groceries python==3.11 -y
 
 
 ################################################ Removing ################################################
