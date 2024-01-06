@@ -4,8 +4,11 @@ python -m venv image
 ########################################## Creating Envirnment ################################
 
 # to create envirnments in vs_studio
-conda create -p gala_groceries python==3.11 -y
+conda create -p gala_groceries python==3.11 -y #for vscode
 
+conda activate venv/
+
+conda create -n gala_groceries python==3.11 -y #for jupyter notebook
 
 ################################################ Removing ################################################
 
@@ -51,3 +54,6 @@ git push -u origin main
 git remote add origin https://github.com/007kakashi/command_test.git
 git branch -M main
 git push -u origin main
+
+
+pip install --force-reinstall -v "traitlets<5.10" 
